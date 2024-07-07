@@ -41,7 +41,7 @@ DELETE /api/contacts/
 ## Example
 Example usage:
 
-# Create a new contact:
+- Create a new contact:
 
 POST /api/contacts
 {
@@ -50,16 +50,16 @@ POST /api/contacts
   "phone": "123-456-7890"
 }
 
-# Retrieve all contacts:
+- Retrieve all contacts:
 
 GET /api/contacts
 
-# Retrieve a contact by ID:
+- Retrieve a contact by ID:
 
 GET /api/contacts/:id
 
 
-# Update a contact by ID:
+- Update a contact by ID:
 
 PUT /api/contacts/:id
 {
@@ -67,5 +67,5 @@ PUT /api/contacts/:id
   "email": "updated.email@example.com",
   "phone": "987-654-3210"
 }
-# Delete a contact by ID:
+- Delete a contact by ID:
 DELETE /api/contacts/:id
