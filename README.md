@@ -27,15 +27,15 @@ A RESTful API for managing contacts using Node.js, Express, MongoDB, and Mongoos
 ## API Endpoints
 The following endpoints are available:
 
-GET /api/contacts - Retrieve all contacts
-POST /api/contacts - Create a new contact
-Required fields: name, email, phone
-GET /api/contacts/
-- Retrieve a contact by ID
-PUT /api/contacts/
-- Update a contact by ID
-DELETE /api/contacts/
-- Delete a contact by ID
+-GET /api/contacts - Retrieve all contacts
+-POST /api/contacts - Create a new contact
+ Required fields: name, email, phone
+-GET /api/contacts/
+ Retrieve a contact by ID
+-PUT /api/contacts/
+ Update a contact by ID
+-DELETE /api/contacts/
+ Delete a contact by ID
 
 
 ## Example
